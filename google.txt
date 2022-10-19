@@ -1,0 +1,13 @@
+import turtle as t
+t.pencolor('white')
+t.bgcolor('black')
+col = ['#da483b','#4486f4', '#1ca45c','#ffc718']
+for img in range(4):
+    t.begin_fill()
+    t.circle(150,180)
+    t.left(90)
+    t.fd(300)
+    t.fillcolor(col[img])
+    t.end_fill()
+t.ht()
+t.done()
